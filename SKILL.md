@@ -87,7 +87,7 @@ Launch a separate reviewer agent for each check, with its own context window. Gi
 
 The coordinator verifies findings against the source and requirements, corrects confirmed issues, and reruns affected checks in separate reviewer agents. Report unresolved findings and checks that could not complete. If delegation is unavailable, say so; sequential self-review is a fallback, not completion of the independent-agent review requirement. An empty checks folder is not a successful review.
 
-The checks are individual nested skills, discovered explicitly through this entry point. Run anchor classification first, then route imperative anchors to behavior review and declarative claims to responsibility review. Structural review can run alongside classification. Boundary review includes both anchor kinds. Give each reviewer its focused context package as described in [the review protocol](references/review-protocol.md); do not send every reviewer the whole repository.
+The checks are individual nested skills, discovered explicitly through this entry point. Run anchor classification first, then route imperative anchors to behavior review and declarative claims to responsibility review. Structural and verbosity review can run alongside classification. Boundary review includes both anchor kinds. Give each reviewer its focused context package as described in [the review protocol](references/review-protocol.md); do not send every reviewer the whole repository.
 
 ## Structure and anchor roles
 

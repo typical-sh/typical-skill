@@ -5,6 +5,7 @@ Each check skill is one independent reviewer responsibility. Reviewers report fi
 ## Context packages
 
 - Structural contract: requirements, declarations and associated anchors, and supported structural constructs.
+- Verbosity: coherent anchor groups, enclosing declarations, nearby structure, and related anchors that establish the same responsibility or lifecycle.
 - Anchor classification: anchors and enclosing declarations, with anchor syntax and role rules.
 - Behavior contracts: imperative anchors, related declarative constraints, signatures, relevant types and lifecycle rules, and semantically resolved scope.
 - Responsibility authority: responsibility and invariant claims, associated behavior, related owners and architecture relationships; relevant implementation only when checking implementation compliance.
